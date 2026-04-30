@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Quotes (Tes)</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -12,11 +18,10 @@
       <h1>Random Quotes</h1>
       <p id="quote" class="quote">Click the button to get a random quote</p>
       <p id="quote-author">(author)</p>
-
       <button id="generate-btn" class="btn">Generat Quote</button>
-      <button id="toggle-favorite-btn" class="btn">Add to Favorites</button>
+      <i id="toggle-favorite-btn" class="far fa-star star-icon"></i>
     </div>
     <div class="favorites-container" id="favorites-container"></div>
-    <script type="module" src="script.js"></script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
